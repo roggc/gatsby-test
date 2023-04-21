@@ -1,0 +1,20 @@
+.container {
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.squareIcon {
+  border: 1px solid brown;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}

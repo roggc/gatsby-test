@@ -6,5 +6,15 @@ module.exports = {
     title: `Prueba Codigo`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: "4t6cvo9by44w",
+        accessToken: "Cn1KvyvMMtZgAVvHqtbFRSo2iqCs8iaxzFHD_eJ92uc",
+      },
+    },
+    "gatsby-plugin-image",
+    "@contentful/gatsby-transformer-contentful-richtext",
+  ],
+};
